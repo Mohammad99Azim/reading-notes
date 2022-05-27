@@ -16,6 +16,8 @@
 | Mohammad Azim | 18/9/1999   | Full Stake Dev |
 
 ***Skills & Technologies***
+
+
 Example text {style=text-align:center}
 
  [Reading Note]([https://duckduckgo.com](https://mohammad99azim.github.io/reading-notes/)).
