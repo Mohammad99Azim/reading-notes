@@ -18,10 +18,10 @@
 ***Skills & Technologies***
 
 
-![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
-![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
-![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
-![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg =50x50) "Python")
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg =50x50) "Python")
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg =50x50) "Python")
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg =50x50) "Python")
 
 
 
