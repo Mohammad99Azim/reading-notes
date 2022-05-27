@@ -1,8 +1,8 @@
-# Reading Notes
+# Reading Notes                                                                [Reading Note]([https://duckduckgo.com](https://mohammad99azim.github.io/reading-notes/)).
 **Description:** Hi This Site made for include some of my information to make it easier to know and contact with me also to find out what knowledge i have and what tecnology i'm enteristed with.
 
 > ## Code 102 - Intro to Software Development
->>
+>> 
 > ## Code 201 - Foundations of Software Development
 >>
 > ## Code 301 - Intermediate Software Development
