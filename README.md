@@ -17,6 +17,12 @@
 
 ***Skills & Technologies***
 
-<center> thi s should be cnetered</center>
+
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
+![Python](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/python.svg) "Python")
+
+
 
  [Reading Note]([https://duckduckgo.com](https://mohammad99azim.github.io/reading-notes/)).
