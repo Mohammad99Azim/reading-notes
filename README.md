@@ -17,7 +17,6 @@
 
 ***Skills & Technologies***
 
-
-Example text {style=text-align:center}
+<center> thi s should be cnetered</center>
 
  [Reading Note]([https://duckduckgo.com](https://mohammad99azim.github.io/reading-notes/)).
