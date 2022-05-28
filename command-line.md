@@ -2,7 +2,7 @@
 it was helpful tutorial there is some command i learned in before and some i was don't know about it so it was a recap and learning more stuff
 
 
-### thigs i learnd
+### things i learnd
 > ``` PWD ``` 
 >> The PWD stand for Print Working Directroy this command will print the path to the current Directory you are in 
 
