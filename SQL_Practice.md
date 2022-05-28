@@ -1,2 +1,15 @@
 # SQL Practice
 
+![Sql](Screen/Screenshot (53).png)
+![Sql](Screen/Screenshot (54).png)
+![Sql](Screen/Screenshot (55).png)
+![Sql](Screen/Screenshot (56).png)
+![Sql](Screen/Screenshot (57).png)
+![Sql](Screen/Screenshot (58).png)
+![Sql](Screen/Screenshot (59).png)
+![Sql](Screen/Screenshot (60).png)
+![Sql](Screen/Screenshot (61).png)
+![Sql](Screen/Screenshot (62).png)
+![Sql](Screen/Screenshot (63).png)
+![Sql](Screen/Screenshot (64).png)
+![Sql](Screen/Screenshot (65).png)
