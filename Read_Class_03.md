@@ -128,9 +128,9 @@ To create a new file in Python, use the open() method, with one of the following
 to close the file use the close() function
 
 
-
-
-
+## Things I want to know more about 
+1) Read file with images 
+2) when we should use file in project and when we shouldn't
 
 
 
