@@ -68,8 +68,31 @@ Output ==> Hello my name is John
 
 ## Thinking Recursively
 
+A recursive function is a function defined in terms of itself via self-referential expressions.
 
+This means that the function will continue to call itself and repeat its behavior until some condition is met to return a result. All recursive functions share a common structure made up of two parts: base case and recursive case.
 
+#### Advantages of using recursion
+
+- A complicated function can be split down into smaller sub-problems utilizing recursion.
+- Sequence creation is simpler through recursion than utilizing any nested iteration.
+- Recursive functions render the code look simple and effective.
+
+#### Disadvantages of using recursion
+
+- A lot of memory and time is taken through recursive calls which makes it expensive for use.
+- Recursive functions are challenging to debug.
+- The reasoning behind recursion can sometimes be tough to think through.
 
 
 ## Pytest Fixtures and Coverage
+
+
+
+
+
+
+
+
+
+
