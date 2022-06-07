@@ -87,6 +87,11 @@ This means that the function will continue to call itself and repeat its behavio
 
 ## Pytest Fixtures and Coverage
 
+we can use the fixtures in the pytest to avoied repeating ourselfs like if we have connection with data base and we want to test some queries we don't want in every 
+
+test rewrite the connect line it will not be clear code and the connect every test will consumes resources the fixtures allowed us to connect one time and all test 
+
+will run then you can clean up and close the connect.
 
 
 
