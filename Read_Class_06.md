@@ -46,3 +46,37 @@ It use to pick a random number in a given range Pick a random element from a lis
 Test coverage is defined as a metric in Software Testing that measures the amount of testing performed by a set of test. It will include gathering information about which parts of a program are executed when running the test suite to determine which branches of conditional statements have been taken.
 
 In simple terms, it is a technique to ensure that your tests are testing your code or how much of your code you exercised by running the test.
+
+
+
+## Big O Notation
+Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. 
+
+- Big O (O()) describes the upper bound of the complexity.
+- Omega (Ω()) describes the lower bound of the complexity.
+- Theta (Θ()) describes the exact bound of the complexity.
+- Little O (o()) describes the upper bound excluding the exact bound.
+
+![](https://www.freecodecamp.org/news/content/images/2021/06/1_O-dcXbYXojkAPEnDuVZMvA.png)
+
+
+
+- O(1) has the least complexity
+
+- O(log(n)) is more complex than O(1), but less complex than polynomials
+
+- O(n^2) Complexity of polynomials increases as the exponent increases 
+
+- O(2^n) Exponentials have greater complexity than polynomials as long as the coefficients are positive multiples of n
+
+- O(n!) Factorials have greater complexity than exponentials
+
+![](https://www.freecodecamp.org/news/content/images/2021/06/1_KfZYFUT2OKfjekJlCeYvuQ.jpeg)
+
+
+
+
+
+
+
+
