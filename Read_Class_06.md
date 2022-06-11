@@ -41,4 +41,8 @@ It use to pick a random number in a given range Pick a random element from a lis
  Implementing risk analysis in software testing typically requires a detailed evaluation of the source code to identify how it interacts with other components of a complete application. This evaluation looks at the various code components and maps how the code interacts.
 
     
-## asdf    
+## Test Coverage   
+
+Test coverage is defined as a metric in Software Testing that measures the amount of testing performed by a set of test. It will include gathering information about which parts of a program are executed when running the test suite to determine which branches of conditional statements have been taken.
+
+In simple terms, it is a technique to ensure that your tests are testing your code or how much of your code you exercised by running the test.
