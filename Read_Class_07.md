@@ -1,0 +1,4 @@
+# Scope
+
+
+# BIG O notation
