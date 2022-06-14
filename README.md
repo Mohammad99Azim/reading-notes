@@ -1,4 +1,14 @@
-# Reading Notes                                                               
+# Reading Notes
+| Reading         | Link  |
+| :---          |    :----:   |
+| Read 01 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Readings.md)   |
+| Read 02 |[go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_02.md)  |
+| Read 03 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_03.md)   |
+| Read 04 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_04.md)  |
+| Read 05 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read:%2005%20-Linked%20Lists.md)   |
+| Read 06 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_06.md)  |
+| Read 07 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_07.md)   |
+
 **Description:** Hi This Site made for include some of my information to make it easier to know and contact with me also to find out what knowledge i have and what tecnology i'm enteristed with.
 
 > ## Code 102 - Intro to Software Development
