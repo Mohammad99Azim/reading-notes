@@ -108,3 +108,61 @@ When the class is invoked with the file name ‘filename.txt’ the __enter__ me
 After executing the commands in the text file the __exit__ method is implicitly invoked to close the file object. 
 In this way, we can use the __enter__ and __exit__ magic methods. These methods can also be used to open and close a database connection.
 
+
+
+
+## Python’s statistics
+Python’s statistics is a built-in Python library for descriptive statistics. 
+You can use it if your datasets are not too large or if you can’t rely on importing other libraries.
+
+
+### statistics.mean(data)
+
+Return the sample arithmetic mean of data which can be a sequence or iterable.
+
+```
+>>> mean([1, 2, 3, 4, 4])
+2.8
+```
+
+### statistics.fmean(data)
+
+This runs faster than the mean() function and it always returns a float. The data may be a sequence or iterable. If the input dataset is empty, raises a StatisticsError.
+
+```
+>>> fmean([3.5, 4.0, 5.25])
+4.25
+```
+
+
+### statistics.median(data)
+
+Return the median (middle value) of numeric data, using the common “mean of middle two” method. If data is empty, StatisticsError is raised. data can be a sequence or iterable.
+
+The median is a robust measure of central location and is less affected by the presence of outliers. When the number of data points is odd, the middle data point is 
+
+returned:
+
+```
+>>> median([1, 3, 5])
+3
+```
+
+When the number of data points is even, the median is interpolated by taking the average of the two middle values:
+
+```
+>>> median([1, 3, 5, 7])
+4.0
+```
+
+This is suited for when your data is discrete, and you don’t mind that the median may not be an actual data point.
+
+
+
+
+
+
+
+
+
+
