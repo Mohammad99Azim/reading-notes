@@ -11,6 +11,7 @@
 | Read 08 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_08.md)   |
 | Read 09 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_09.md)   |
 | Read 11 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_11.md)   |
+| Read 12 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_12.md)   |
 
 
 
