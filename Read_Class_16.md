@@ -34,12 +34,8 @@ Serverless is a cloud application development and execution model that lets deve
 
 
 
-
-
-
-
-
-
-
-
 ## Things I want to know more about
+
+i want to know how to use it, what is the best uses for it and when should i use it.
+
+also training and do a real expamle using it and how i can use it in my projects 
