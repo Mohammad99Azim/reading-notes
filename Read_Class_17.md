@@ -114,3 +114,6 @@ for one_a_tag in soup.findAll('a'):  #'a' tags are for links
 
 
 [link](https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460)
+ 
+ 
+[tips](https://www.danielherediamejias.com/6-basic-tips-to-perform-web-scraping-with-python/)
