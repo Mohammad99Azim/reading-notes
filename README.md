@@ -18,6 +18,7 @@
 | Read 16 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_16.md)   |
 | Read 17 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_17.md)   |
 | Read 18 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_18.md)   |
+| Read Intro_to _Django_26 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_26_Intro_to%20_Django.md)   |
 
 
 
