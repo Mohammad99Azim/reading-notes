@@ -19,8 +19,8 @@
 | Read 17 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_17.md)   |
 | Read 18 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_18.md)   |
 | Read Intro_to _Django_26 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_26_Intro_to%20_Django.md)   |
-
-
+| Read Django_Models_27  | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_27_Django_Models.md)   |
+| Read Django_Forms_28 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_28_Django_Forms.md)   |
 
 
 **Description:** Hi This Site made for include some of my information to make it easier to know and contact with me also to find out what knowledge i have and what tecnology i'm enteristed with.
