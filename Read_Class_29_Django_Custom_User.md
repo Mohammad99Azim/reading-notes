@@ -145,7 +145,118 @@ Create a new project-level templates folder and within it a registration folder 
 (.venv) > mkdir templates/registration
 ```
 
+Update the files as follows:
+```
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+</head>
+<body>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+</body>
+</html>
+```
 
 
+```
+<!-- templates/home.html -->
+{% extends "base.html" %}
 
+{% block title %}Home{% endblock %}
 
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }}!
+  <p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a> |
+  <a href="{% url 'signup' %}">Sign Up</a>
+{% endif %}
+{% endblock %}
+```
+
+```
+<!-- templates/registration/login.html -->
+{% extends "base.html" %}
+
+{% block title %}Log In{% endblock %}
+
+{% block content %}
+<h2>Log In</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Log In</button>
+</form>
+{% endblock %}
+```
+
+```
+<!-- templates/registration/signup.html -->
+{% extends "base.html" %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+<h2>Sign Up</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Sign Up</button>
+</form>
+{% endblock %}
+```
+
+Now for our urls.py files at the project and app level.
+```
+# django_project/urls.py
+from django.contrib import admin
+from django.urls import path, include
+from django.views.generic.base import TemplateView
+
+urlpatterns = [
+    path("", TemplateView.as_view(template_name="home.html"), name="home"),
+    path("admin/", admin.site.urls),
+    path("accounts/", include("accounts.urls")),
+    path("accounts/", include("django.contrib.auth.urls")),
+]
+```
+Create a urls.py file in the accounts app using the touch command on macOS or your text editor on Windows.
+
+``(.venv) > touch accounts/urls.py``
+
+Then fill in the following code:
+```
+# accounts/urls.py
+from django.urls import path
+
+from .views import SignUpView
+
+urlpatterns = [
+    path("signup/", SignUpView.as_view(), name="signup"),
+]
+```
+
+Last step is our views.py file in the accounts app which will contain our signup form.
+
+```
+# accounts/views.py
+from django.urls import reverse_lazy
+from django.views.generic.edit import CreateView
+
+from .forms import CustomUserCreationForm
+
+class SignUpView(CreateView):
+    form_class = CustomUserCreationForm
+    success_url = reverse_lazy("login")
+    template_name = "registration/signup.html"
+```
+
+Ok, phew! We're done. Let's test it out. Start up the server with python manage.py runserver and go to the homepage at http://127.0.0.1:8000/. 
