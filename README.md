@@ -22,6 +22,8 @@
 | Read Django_Models_27  | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_27_Django_Models.md)   |
 | Read Django_Forms_28 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_28_Django_Forms.md)   |
 | Read Django_Custom_User_29 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_29_Django_Custom_User.md)   |
+| Read Hash_Tables_30 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_30_Hash_Tables.md)   |
+
 
 
 
