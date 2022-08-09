@@ -41,5 +41,43 @@ Also we can’t run a production database or other services within virtual envir
 
 
 
+## Django REST Framework
+
+Django REST framework is a powerful and flexible toolkit for building Web APIs.
+
+Django REST framework (DRF) is a open source, mature and well supported Python/Django library that aims at building sophisticated web APIs. It is flexible and fully-featured toolkit with modular and customizable architecture that makes possible development of both simple, turn-key API endpoints and complicated REST constructs.
+The only REST framework’s dependencies are Python (2.6.5+) and Django (1.30+). All other packages are optional, e.g. for filtering and OAuth support, or Markdown, PyYAML, defusedxml for Markdown, YAML, XML content types support.
+
+
+
+#### why i need it?
+
+Django REST framework contains wide set of out of the box features, but the core view class is very simple and framework in general is easy to use. The main idea behind the DRF is to clearly divide a model, the generalized wire representation (e.g. JSON, XML, etc.), and set of generic Class-Based-Views that can be customized to satisfy the specific API endpoint using Serializer that describes the mapping between them.
+
+
+
+#### differences between DRF and other frameworks
+
+One of the main differences between DRF and other frameworks is that it allows developer to define URL structure and not rely on an auto-generated one, while others automate much of the conversion from Django models to REST endpoints, thus are less flexible. Moreover, Django REST Framework includes built-in API browser for testing out newly developed API.
+
+
+
+#### Main advantages of Django REST framework:
+
+- Simplicity, flexibility, quality, and test coverage of source code.
+- Powerful serialization engine compatible with both ORM and non-ORM data sources.
+- Pluggable and easy to customise emitters, parsers, validators and authenticators.
+- Generic classes for CRUD operations.
+- Clean, simple, views for Resources, using Django's new class based views.
+- Support for ModelResources with out-of-the-box default implementations and input validation (optional support for forms as input validation).
+- HTTP response handling, content type negotiation using HTTP Accept headers.
+- Pagination simplifies the process of returning paginated data in a way that can then be rendered to arbitrary media types.
+- Publishing of metadata along with querysets.
+- Permission classes and throttling management (API may feature a RESTrictive throttle for unauthenticated requests, a less RESTrictive throttle for authenticated requests, etc.).
+
+
+
+
+
 
 
