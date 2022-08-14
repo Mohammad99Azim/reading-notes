@@ -87,6 +87,32 @@ urlpatterns = [
  
  
  
+ ## Django Runserver Is Not Your Production Server
+ 
+ with runserver is not guaranteed to be performant (it’s very slow), and it hasn’t been built with security concerns in mind. Not a good fit for production use.
+
+So, what’s the right way to approach this?
+
+### A Production Stack
+
+You want to only use tech in production, which is reliable, well tested and has been around for a while.
+
+A production setup usually consists of multiple components, each designed and built to be really good at one specific thing. They are fast, reliable and very focused.
+
+When a request arrives at your server, it should be passed to a dedicated web server. Nginx is an example for a good web server.
+
+This is an application, which is great at serving static files from disk (your css and js files for example) and handling multiple requests at once. If the request is not for a static file, but should be processed by your application, the webserver is configured to pass this request to the next component.
+
+
+#### How Does Django Fit In?
+
+Your Django app does not actually run as you would think a server would - waiting for requests and reacting to them. Your project provides a uwsgi.py file, which contains a function to be called by the application server. This function gets a Python object representing the incoming request.
+
+This function calls your code, and produces a response object which is passed to the WSGI server. There the response is translated into a HTTP response and is passed back to the web server, which finally delivers it to the user.
+
+ 
+ 
+ 
  
  
 
