@@ -25,6 +25,7 @@
 | Read Hash_Tables_30 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_30_Hash_Tables.md)   |
 | Read Django REST Framework and Docker 31 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_31_Django_REST_Framework_and_Docker.md)|
 | Read Authentication and Production Server 32 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/edit/main/Read_Class_32_Authentication_and_Production_Server.md)|
+| DSA_Review Interview | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_36-DSA_Review.md)|
 
 
 
