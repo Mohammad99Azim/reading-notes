@@ -27,6 +27,8 @@
 | Read Authentication and Production Server 32 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_32_Permissions_and_Postgresql.md)|
 | DSA_Review Interview | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_36-DSA_Review.md)|
 | React1 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_37_React1.md)|
+| React2 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_38_React_2.md)|
+| React3 | [go_to_page](https://github.com/Mohammad99Azim/reading-notes/blob/main/Read_Class_39_React_3.md)|
 
 
 
